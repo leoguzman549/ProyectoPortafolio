@@ -1,10 +1,85 @@
-body {
+body{
   font-family: Arial, sans-serif;
-  margin: 0px;
-  padding: 0px;
+  background-image: url(multimedia/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.fondo{
+  background: #86868693;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+header{
+  height: 70vh;
+  background-image: url(multimedia/Montana2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.margen{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.titulo{
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.titulo2 {
+  font-size: 40px;
 }
 
 textarea {
   width: 250px;
   height: 100px;
+}
+
+.copy {
+  font-size: smaller;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+footer{
+  height: 40vh;
+  background-image: url(multimedia/Montana.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.foo-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
 }
